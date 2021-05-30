@@ -2,7 +2,7 @@
   <div class="navbar-right">
     <ul v-if="auth" class="nav navbar-nav github-login">
       <li>
-        <a href="javascript:;">
+        <a v-dropdown href="javascript:;">
           <span v-if="user">
             <img v-if="user.avatar" :src="user.avatar" class="avatar-topnav">
             <span v-if="user.name">{{ user.name }}</span>
@@ -11,7 +11,7 @@
           <span class="caret"></span>
         </a>
         <ul class="dropdown-menu">
-          <li><a href="#"><i class="fa fa-sign-out text-md"></i>退出</a></li>
+          <li><a href="javascript:;" @click="logout"><i class="fa fa-sign-out text-md"></i>退出</a></li>
         </ul>
       </li>
     </ul>
@@ -36,6 +36,12 @@ export default {
       'auth',
       'user'
     ])
+  },
+    // 添加 methods 选项，并添加 logout 方法
+  methods: {
+    logout() {
+      this.$store.dispatch('logout')
+    }
   }
 }
 </script>
