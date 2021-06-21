@@ -1610,6 +1610,11 @@
   "resolved" "https://registry.nlark.com/amdefine/download/amdefine-1.0.1.tgz"
   "version" "1.0.1"
 
+"animate.css@^4.1.1":
+  "integrity" "sha1-YU7FqBEx1+TcNipYFD90BqvWgHU="
+  "resolved" "https://registry.npm.taobao.org/animate.css/download/animate.css-4.1.1.tgz"
+  "version" "4.1.1"
+
 "ansi-colors@^3.0.0":
   "integrity" "sha1-46PaS/uubIapwoViXeEkojQCb78="
   "resolved" "https://registry.npm.taobao.org/ansi-colors/download/ansi-colors-3.2.4.tgz"
@@ -2535,6 +2540,18 @@
   "integrity" "sha1-DQcLTQQ6W+ozovGkDi7bPZpMz3c="
   "resolved" "https://registry.npm.taobao.org/code-point-at/download/code-point-at-1.1.0.tgz"
   "version" "1.1.0"
+
+"codemirror-spell-checker@*":
+  "integrity" "sha1-HGYPkIlIPMtRE7m6nKGcP0mTNx4="
+  "resolved" "https://registry.npm.taobao.org/codemirror-spell-checker/download/codemirror-spell-checker-1.1.2.tgz"
+  "version" "1.1.2"
+  dependencies:
+    "typo-js" "*"
+
+"codemirror@*":
+  "integrity" "sha1-zPyKQ7j8+4sS6OdbX/3kjVQUBuA="
+  "resolved" "https://registry.nlark.com/codemirror/download/codemirror-5.61.1.tgz"
+  "version" "5.61.1"
 
 "collection-visit@^1.0.0":
   "integrity" "sha1-S8A3PBZLwykbTTaMgpzxqApZ3KA="
@@ -4204,7 +4221,7 @@
   "resolved" "https://registry.nlark.com/hex-color-regex/download/hex-color-regex-1.1.0.tgz"
   "version" "1.1.0"
 
-"highlight.js@^10.7.1":
+"highlight.js@^10.7.1", "highlight.js@^10.7.2":
   "integrity" "sha1-iTGbhh7cZsSIVO0ebaIeqJ+Ec2A="
   "resolved" "https://registry.nlark.com/highlight.js/download/highlight.js-10.7.2.tgz"
   "version" "10.7.2"
@@ -5131,6 +5148,11 @@
   "resolved" "https://registry.nlark.com/lodash.memoize/download/lodash.memoize-4.1.2.tgz"
   "version" "4.1.2"
 
+"lodash.toarray@^4.4.0":
+  "integrity" "sha1-JMS/zWsvuji/0FlNsRedjptlZWE="
+  "resolved" "https://registry.npm.taobao.org/lodash.toarray/download/lodash.toarray-4.4.0.tgz"
+  "version" "4.4.0"
+
 "lodash.transform@^4.6.0":
   "integrity" "sha1-EjBkIvYzJK7YSD0/ODMrX2cFR6A="
   "resolved" "https://registry.npm.taobao.org/lodash.transform/download/lodash.transform-4.6.0.tgz"
@@ -5225,6 +5247,11 @@
   "version" "1.0.0"
   dependencies:
     "object-visit" "^1.0.0"
+
+"marked@*":
+  "integrity" "sha1-t8J/Ug/E3g3dBJ2bS+OwTgYxSSM="
+  "resolved" "https://registry.nlark.com/marked/download/marked-2.1.1.tgz"
+  "version" "2.1.1"
 
 "md5.js@^1.3.4":
   "integrity" "sha1-tdB7jjIW4+J81yjXL3DR5qNCAF8="
@@ -5446,6 +5473,11 @@
   dependencies:
     "minimist" "^1.2.5"
 
+"moment@^2.29.1":
+  "integrity" "sha1-sr52n6MZQL6e7qZGnAdeNQBvo9M="
+  "resolved" "https://registry.npm.taobao.org/moment/download/moment-2.29.1.tgz"
+  "version" "2.29.1"
+
 "move-concurrently@^1.0.1":
   "integrity" "sha1-viwAX9oy4LKa8fBdfEszIUxwH5I="
   "resolved" "https://registry.nlark.com/move-concurrently/download/move-concurrently-1.0.1.tgz"
@@ -5543,6 +5575,13 @@
   "version" "2.3.2"
   dependencies:
     "lower-case" "^1.1.1"
+
+"node-emoji@^1.10.0":
+  "integrity" "sha1-iIar0l2ce7YYAqZYUj0fjSqJsto="
+  "resolved" "https://registry.npm.taobao.org/node-emoji/download/node-emoji-1.10.0.tgz"
+  "version" "1.10.0"
+  dependencies:
+    "lodash.toarray" "^4.4.0"
 
 "node-forge@^0.10.0":
   "integrity" "sha1-Mt6ir7Ppkm8C7lzoeUkCaRpna/M="
@@ -6641,6 +6680,11 @@
   "resolved" "https://registry.npm.taobao.org/q/download/q-1.5.1.tgz?cache=0&sync_timestamp=1599054212574&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fq%2Fdownload%2Fq-1.5.1.tgz"
   "version" "1.5.1"
 
+"qrcode.vue@^1.7.0":
+  "integrity" "sha1-xUspNPBlDBDZJ4XQiqrTbFXg/FY="
+  "resolved" "https://registry.npm.taobao.org/qrcode.vue/download/qrcode.vue-1.7.0.tgz"
+  "version" "1.7.0"
+
 "qs@~6.5.2":
   "integrity" "sha1-yzroBuh0BERYTvFUzo7pjUA/PjY="
   "resolved" "https://registry.nlark.com/qs/download/qs-6.5.2.tgz"
@@ -7311,6 +7355,15 @@
   "version" "0.2.2"
   dependencies:
     "is-arrayish" "^0.3.1"
+
+"simplemde@^1.11.2":
+  "integrity" "sha1-ojo12XjSxA7wfewAjJLwcNjggOM="
+  "resolved" "https://registry.npm.taobao.org/simplemde/download/simplemde-1.11.2.tgz"
+  "version" "1.11.2"
+  dependencies:
+    "codemirror" "*"
+    "codemirror-spell-checker" "*"
+    "marked" "*"
 
 "slash@^1.0.0":
   "integrity" "sha1-xB8vbDn8FtHNF61LXYlhFK5HDVU="
@@ -7991,6 +8044,11 @@
   "integrity" "sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c="
   "resolved" "https://registry.npm.taobao.org/typedarray/download/typedarray-0.0.6.tgz"
   "version" "0.0.6"
+
+"typo-js@*":
+  "integrity" "sha1-2+WN46bcu+Jgt4vykO52GwCKKOg="
+  "resolved" "https://registry.npm.taobao.org/typo-js/download/typo-js-1.2.0.tgz"
+  "version" "1.2.0"
 
 "uglify-js@3.4.x":
   "integrity" "sha1-mtlWPY6zrN+404WX0q8dgV9qdV8="

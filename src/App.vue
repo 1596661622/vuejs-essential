@@ -39,4 +39,6 @@ $fa-font-path: "~font-awesome/fonts/";
 @import "~font-awesome/scss/font-awesome";
 @import "./styles/main";
 @import "./styles/extra";
+@import "~animate.css/animate.min.css";
+
 </style>
